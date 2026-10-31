@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    font-family: Arial;
+    background-color: lightyellow;
+}
+
+h1 {
+    background-color: brown;
+    color: white;
+    padding: 20px;
+}
+
+nav {
+    background-color: black;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+
+div {
+    padding: 20px;
+}
+
+#home {
+    background-color: orange;
+    color: white;
+}
+
+#menu {
+    background-color: lightpink;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}

@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: white;
+}
+
+
+header {
+    background: darkblue;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+    animation: show 1s;
+}
+
+h1, h2 {
+    color: indigo;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 15px auto;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #bbb;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+.btn {
+    display: inline-block;
+    background: skyblue;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: blue;
+}
+
+
+    
+
+
+footer {
+    backgroun:dark blue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+@media(max-width: 600px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        margin-top: 15px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    section {
+        padding: 25px 10px;
+    }
+}
+```
